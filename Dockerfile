@@ -11,7 +11,7 @@ ENV CONSUL_HOST=
 ENV CONSUL_PORT=
 
 RUN apk --no-cache update \
-    apk --no-cache add python3 unzip
+    apk --no-cache add python3 py3-pip unzip
 
 RUN pip3 --no-cache-dir install awscli
 
